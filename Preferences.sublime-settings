@@ -1,0 +1,62 @@
+{
+	// Esquema de cores para texto
+	"color_scheme": "Packages/Monokai Extended/Monokai Extended Bright.tmTheme",
+	
+	// Tamanho da fonte do texto
+	"font_size": 9,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"theme": "Soda Dark 3.sublime-theme",
+
+	// Destaca a linha que o cursor esta
+	"highlight_line": true,
+
+	// Destaca as abas que possuem modificação
+	"highlight_modified_tabs": true,
+
+	// Nome de diretórios em negrito
+	"bold_folder_labels": true,
+	"auto_complete": false,
+	"fade_fold_buttons": false,
+	"indent_guide_options": 
+		[
+			"draw_normal",
+			"draw_active"
+		],
+
+	// Arquivos ignorados
+	"file_exclude_patterns": ["*.lib",
+	                            ".DS_Store",
+	                            "*~",
+	                            "*.class",
+	                            "*.db",
+	                            "*.tmp",
+	                            "*.out",
+	                            "*.lock",
+	                            "*.swp",
+	                            "*.so",
+	                            "Thumbs.db",
+	                            "ehthumbs.db",
+	                            "Desktop.ini",
+	                            "*.sass-cache"],
+
+	// Pastas ignoradas
+	"folder_exclude_patterns": [".git",
+	                              ".svn",
+	                              ".vagrant",
+	                              ".idea",
+	                              "nbproject",
+	                              ".hg",
+	                              "CVS",
+	                              "_build",
+	                              "dist",
+	                              "build",
+	                              "*.sass-cache",
+	                              "$RECYCLE.BIN"]
+
+	// ignorar os arquivos com extensões igual as passadas
+	// "file_exclude_patterns": ["*.lib",".DS_Store","*~","*.png","*.jpg","*.gif",".jpeg","*.db","*.eot","*.svg","*.ttf","*.woff","*.tmp","Thumbs.db","ehthumbs.db","Desktop.ini"]
+	// pastas "folder_exclude_patterns": ["arquivos","$RECYCLE.BIN"],
+}
